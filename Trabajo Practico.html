@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Deportiva</title>
+    <link rel="stylesheet" href="Trabajo Practico.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda Deportiva</h1>
+            <img src="Imagenes/Shaddai .jpg" alt="Shaddai">
+        <nav>
+            <>
+                <li><a href="index.html">Inicio</a></li>
+            
+                <li><a href="productos.html">Productos</a></li>
+
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <!-- Aquí irían los productos -->
+        </section>
+
+        <section class="formulario">
+            <h2>Suscribete para mas noticias</h2>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="comentarios y sugerencias">comentarios y sugerencias:</label>
+                <textarea id="comentarios y sugerencias" rows="4" required></textarea>
+
+                <label for="interes">Interés:</label>
+                <select id="interes">
+                    <option value="consulta en general">Consultas</option>
+                    <option value="compra">Compra de productos</option>
+                </select>
+
+                <input type="checkbox" id="suscripcion">
+                <label for="suscripcion">Suscribirme al boletín</label>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <center><nav class="pie">Lo que necesites, lo tenemos... Oh lo fabricamos<i class="fa fa-facebook" aria-hidden="true"></i> </nav></center>
+        <i class="fa fa-facebook"></i>
+        <p>© 2024 Tienda Deportiva</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
